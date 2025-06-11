@@ -1,0 +1,205 @@
+Étude de Cas : Application de Gestion des Réservations pour une Bibliothèque
+
+1. Contexte du Projet
+
+La bibliothèque universitaire souhaite moderniser son système de gestion des prêts en permettant aux étudiants et enseignants de réserver des livres en ligne et de suivre leurs emprunts. Les objectifs sont de simplifier la gestion des réservations, de réduire les déplacements inutiles et d’optimiser la disponibilité des ouvrages.
+
+Problèmes identifiés :
+
+Les étudiants se déplacent souvent pour un livre indisponible.
+
+Pas de système de notifications pour informer sur la disponibilité d'un ouvrage.
+
+Gestion manuelle des prêts et réservations par les bibliothécaires.
+
+Aucune accessibilité à distance de la base de données des livres.
+
+2. Étape "Délimiter"
+
+2.1 Recenser les documents existants
+
+L’équipe projet analyse les documents suivants :
+
+Document
+
+Contenu
+
+Problème identifié
+
+Règlement de prêt
+
+Durée max. de 3 semaines, prolongation possible
+
+Manque de flexibilité en période d’examens
+
+Base de données actuelle
+
+Liste des livres disponibles, consultation locale
+
+Pas d’accès à distance
+
+Exemples d’applications similaires
+
+Notifications de disponibilité, suggestions personnalisées
+
+Absence d’alertes et de recommandations
+
+2.2 Interroger les personnes concernées
+
+Acteur interrogé
+
+Problème identifié
+
+Besoin exprimé
+
+Étudiants et enseignants
+
+Déplacement inutile pour un livre indisponible
+
+Réservation en ligne et notifications
+
+Bibliothécaires
+
+Suivi manuel des réservations
+
+Automatisation et file d'attente
+
+Administrateur informatique
+
+Compatibilité avec système existant
+
+Intégration avec la base de données actuelle
+
+2.3 Résultats de l'étape "Délimiter"
+
+Énoncé des besoins
+
+L’application doit permettre :
+
+La réservation des livres en ligne.
+
+Un suivi des emprunts avec historique.
+
+L’envoi de notifications automatiques pour les disponibilités et les retours.
+
+Une file d’attente pour les réservations multiples.
+
+Une recommandation de livres selon l’historique des emprunts.
+
+Périmètre et limites du projet
+
+Inclus : gestion des réservations et des emprunts, notifications, accès à distance.
+
+Exclus : gestion des pénalités de retard, administration complète de la bibliothèque.
+
+3. Acteurs impliqués
+
+Rôle
+
+Responsabilités
+
+Étudiants et enseignants
+
+Réserver des livres, suivre leurs emprunts
+
+Bibliothécaires
+
+Gérer les réservations et les prêts
+
+Administrateur informatique
+
+Assurer la maintenance de l'application
+
+Développeurs
+
+Créer et maintenir l'application
+
+Responsable projet
+
+Coordonner le développement et la mise en place
+
+4. Contraintes et risques
+
+Contraintes techniques
+
+L’application doit être compatible avec la base de données existante.
+
+Accessibilité sur mobile et desktop.
+
+Système de notifications en temps réel.
+
+Contraintes financières
+
+Budget limité pour le développement.
+
+Maintenance et mises à jour doivent être économiques.
+
+Ressources humaines restreintes pour la gestion du projet.
+
+Risques possibles
+
+Problèmes de sécurité des données utilisateurs.
+
+Difficulté d’adoption par les bibliothécaires et étudiants.
+
+Intégration complexe avec le système actuel.
+
+5. Cahier des Charges Fonctionnel
+
+1. Présentation du projet
+
+Mise en place d'une application de gestion des réservations de livres en ligne pour simplifier les emprunts et optimiser la disponibilité des ouvrages.
+
+2. Objectifs
+
+Réduire les déplacements inutiles.
+
+Automatiser la gestion des réservations.
+
+Améliorer l’expérience utilisateur.
+
+3. Acteurs et rôles
+
+Étudiants et enseignants : utilisateurs finaux.
+
+Bibliothécaires : gestion des prêts et réservations.
+
+Administrateur informatique : maintenance technique.
+
+Développeurs : développement et correctifs.
+
+Responsable projet : coordination générale.
+
+4. Besoins fonctionnels
+
+Consultation du catalogue en ligne.
+
+Réservation des livres.
+
+Gestion des emprunts et de l'historique.
+
+Notifications automatiques.
+
+File d’attente pour les réservations multiples.
+
+Suggestions de livres personnalisées.
+
+5. Contraintes et risques
+
+Contraintes techniques : compatibilité avec la base existante, accessibilité mobile.
+
+Contraintes financières : budget limité, maintenance économique.
+
+Risques : adoption difficile, sécurité des données.
+
+6. Livrable final
+
+Cahier des charges complet.
+
+Prototype de l'application.
+
+Tests utilisateurs et ajustements avant mise en production.
+
+Bonus : Une présentation finale avec un diagramme des acteurs et un tableau récapitulatif des besoins peut être ajoutée pour une meilleure visualisation du projet.
+
+ddd
